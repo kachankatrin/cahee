@@ -1,0 +1,26 @@
+.btn {
+  text-transform: uppercase;
+  font-family: Raleway-Light;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+  line-height: 2.7rem;
+  filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.5));
+  width: 20rem;
+  height: 5.5rem;
+  
+  &-orange {
+    border-color: rgb(255, 96, 51);
+    background-color: rgb(255, 96, 51);
+  }
+  &-grey {
+    border-color: rgb(85, 133, 162);
+    background-color: rgb(85, 133, 162);
+    margin: 2rem auto 0 auto;
+  }
+  &-red {
+    background-color: rgb(247, 43, 59);
+    border-color: rgb(247, 43, 59);
+    margin: 5rem 48.5rem 0 48.5rem;  
+  }
+}

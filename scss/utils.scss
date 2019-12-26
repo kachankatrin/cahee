@@ -1,0 +1,58 @@
+.logo {
+  font-family: Pacifico-Regular;
+  line-height: 2.5rem;
+}
+.logo-nav {
+  .logo-b {
+    font-size: 5rem;
+    color: rgb(38, 38, 38);
+  }
+}
+.article-1 {
+
+  h1 {
+    text-transform: capitalize;
+    font-family: Raleway-Bold;
+    font-size: 9rem;
+    color: rgba(38, 38, 38, 255);
+    text-align: left;
+  }
+  h2 {
+    text-transform: capitalize;
+    font-family: Raleway-Heavy;
+    font-size: 6rem;
+    color: rgba(38, 38, 38, 255);
+    text-align: left;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  h3 {
+    text-transform: capitalize;
+    font-family: Raleway-Heavy;
+    font-size: 4rem;
+    color: rgba(38, 38, 38, 255);
+    text-align: left;
+    line-height: 2.7rem;
+    margin-bottom: 3rem;
+  }
+  h6 {
+    font-family: Raleway-Light;
+    font-size: 1.7rem;
+    color: rgba(38, 38, 38, 255);
+    text-align: left;
+    line-height: 2.7rem;
+    margin: 1rem 0;
+  }
+}
+
+.wrapper {
+  max-width: 1172px;
+  display: flex;
+  
+  margin: auto;
+}
+
+.container-flex {
+  display: flex;
+}
+

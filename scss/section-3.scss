@@ -1,0 +1,44 @@
+.section-3 {
+  background-color: rgb(255, 233, 47);
+  padding: 10rem 0 12rem 0;
+  
+  .article-1  {
+    width: 38.5%;
+    margin: auto;
+    h1, h6 {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+  }
+  .wrapper {
+    flex-flow: column;
+    height: 108.6rem;
+    justify-content: space-between;
+    .line {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+    }
+    .line-1 {
+      .gallery {
+        width: 77.2rem;
+        height: 55.2rem;
+      }
+      .subline-1 {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        .gallery {
+          width: 37.2rem;
+          height: 26.2rem;
+        }
+      }
+    }
+    .line-2 {
+      .gallery {
+        width: 57.2rem;
+        height: 40.2rem;
+      }
+    }
+  }
+}
